@@ -44,11 +44,9 @@ function calculate(){
     tipEl.value = tipVal;
     totalEl.value = totalVal;
 
-    msgEl.textContent = `Tip: ₹${tipVal} | Total: ₹${totalVal}`;
-    msgEl.style.color = "green";
+    msgEl.textContent = "";
 
     billAmtEl.value = "";
     tipPerEl.value = "";
 }
-
 

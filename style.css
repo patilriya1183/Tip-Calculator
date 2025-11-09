@@ -14,8 +14,8 @@
 }
 
 .mini-container{
-    height: 90%;
-    width: 25%;
+    height: 100%;
+    width: 100%;
     border: 3px solid rosybrown;
     padding: 1px;
 }
@@ -62,4 +62,20 @@
 
 .msg{
     margin-top: 8px;
+}
+
+
+@media (min-width : 1024px) {
+    
+
+    .main-container{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .mini-container{
+        height: 90%;
+        width: 25% !important;
+    }
+
 }
